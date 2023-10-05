@@ -1,59 +1,52 @@
-
-<p>
-Starter template django
-</br>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-<img src="https://img.shields.io/badge/redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+  <img src="https://img.shields.io/badge/Redis-CC0000.svg?&style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
 </p>
+🚀 Django Starter Template
+Kickstart your next Django project with this boilerplate integrated with Graphene, Celery, Redis, Email, Translation, Blog, Cookies, and Contact functionalities. Designed to save your time and help you build robust and efficient web applications! 🎉
 
+📚 Table of Contents
+Features
+Tech Stack
+Key Requirements
+Getting Started
+GraphQL API
+Links
+🌟 Features <a name="features"></a>
+Graphene & Django: Supercharge your API with GraphQL and Django integration.
+Celery & Redis: Asynchronous task processing made easy and efficient.
+Email & Translation: Send emails and translate content on-the-fly.
+Blog & Cookies: Start blogging and manage cookies effortlessly.
+Contact: A ready-to-use contact form for user inquiries.
+💻 Tech Stack <a name="tech-stack"></a>
+Python 3.9
+Django 4.1
+Graphene-Django 3.0.0
+Celery 5.2.7
+Redis
+📦 Key Requirements <a name="key-requirements"></a>
+Here are some of the key packages required:
 
-# Content table
-<ol>
-  <li><b>Features</b></li>
-  <li><b>Tech Stack</b></li>
-  <li><b>Environments</b></li>
-  <li>
-    <b>Getting started</b>
-    <ol>
-      <li>Installation</li>
-      <li>Environment variables</li>
-    </ol>
-  </li>
-  <li><b>API</b></li>
-  <li><b>Links</b></li>
-</ol>
+Django==4.1.3
+django-cors-headers==3.13.0
+django-environ==0.9.0
+celery==5.2.7
+django-graphql-jwt==0.3.4
+graphene-django==3.0.0
+🚀 Getting Started <a name="getting-started"></a>
+Installation and Tests
+Follow the Installation Instructions.
+Run tests using the guide here.
+Environment Variables
+Copy the environment variables from .env.example to .env and fill up the required values to get access to various services.
 
-# 1. Features
-* Starter template django
+📡 GraphQL API <a name="graphql-api"></a>
+Explore the GraphQL docs and playground here.
 
-# 2. Tech Stack
-
-* <u>python 3.9</u>
-* <u>Django 4.1</u>
-* <u>pytest 7.1.2 </u>             --> Using as our testsuite
-* <u>sentry-sdk</u> 1.10.1          --> Our error/exception logger
-* <u>graphene-django</u> 3.0.0              --> API
-
-# 3. Environments
-1. <u>Main environment</u> - Environment for frontend implementation
-
-# 4. Getting started
-## 4.1 Installation and tests
-
-1. [Installation instructions](docs/installation.md)
-1. [Run tests](docs/testing.md)
-
-## 4.2 Environment variables
-
-The environment variables in the `.env.example` must be copied to into an `.env` file.
-Some values might need to be filled up get access to some services.
-
-# 5. GraphQL
-
-The docs can be found <a href="https://{app_name}.be/graphql">Here</a>
-
-# 6. Links
-* <a href="https://www.{app_name}.be/" target="_blank">Website</a>
-
-
+🔗 Links <a name="links"></a>
+Website
+<p align="center">
+  Happy Coding! 💻🚀
+</p>
